@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D8AA21B2992217F0007D183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8AA21A2992217F0007D183 /* AppDelegate.swift */; };
+		8D8AA21D2992217F0007D183 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8AA21C2992217F0007D183 /* SceneDelegate.swift */; };
+		8D8AA224299221820007D183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8AA223299221820007D183 /* Assets.xcassets */; };
+		8D8AA227299221820007D183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8AA225299221820007D183 /* LaunchScreen.storyboard */; };
+		8D8AA231299224EA0007D183 /* AlarmClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8AA22F299224EA0007D183 /* AlarmClockViewController.swift */; };
+		8D8AA232299224EA0007D183 /* AlarmClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8AA230299224EA0007D183 /* AlarmClockViewController.xib */; };
+		8D8AA239299241380007D183 /* AlarmClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8AA237299241380007D183 /* AlarmClockTableViewCell.swift */; };
+		8D8AA23A299241380007D183 /* AlarmClockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8AA238299241380007D183 /* AlarmClockTableViewCell.xib */; };
+		8DEF9430299291E100703058 /* AlarmClockSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF942E299291E100703058 /* AlarmClockSettingViewController.swift */; };
+		8DEF9431299291E100703058 /* AlarmClockSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DEF942F299291E100703058 /* AlarmClockSettingViewController.xib */; };
+		8DFE7EB22993959B003A6A47 /* AlarmClockSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB02993959B003A6A47 /* AlarmClockSettingTableViewCell.swift */; };
+		8DFE7EB32993959B003A6A47 /* AlarmClockSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB12993959B003A6A47 /* AlarmClockSettingTableViewCell.xib */; };
+		8DFE7EB62993C4FC003A6A47 /* SettingRemindTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB42993C4FC003A6A47 /* SettingRemindTableViewCell.swift */; };
+		8DFE7EB72993C4FC003A6A47 /* SettingRemindTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB52993C4FC003A6A47 /* SettingRemindTableViewCell.xib */; };
+		8DFE7EBA2993CA66003A6A47 /* SettingDeleteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB82993CA66003A6A47 /* SettingDeleteTableViewCell.swift */; };
+		8DFE7EBB2993CA66003A6A47 /* SettingDeleteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB92993CA66003A6A47 /* SettingDeleteTableViewCell.xib */; };
+		8DFE7EC22994BE1C003A6A47 /* SettingRepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE7EC02994BE1C003A6A47 /* SettingRepeatViewController.swift */; };
+		8DFE7EC32994BE1C003A6A47 /* SettingRepeatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE7EC12994BE1C003A6A47 /* SettingRepeatViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D8AA2172992217F0007D183 /* AlarmClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8AA21A2992217F0007D183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D8AA21C2992217F0007D183 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D8AA223299221820007D183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D8AA226299221820007D183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D8AA228299221820007D183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8AA22F299224EA0007D183 /* AlarmClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockViewController.swift; sourceTree = "<group>"; };
+		8D8AA230299224EA0007D183 /* AlarmClockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmClockViewController.xib; sourceTree = "<group>"; };
+		8D8AA237299241380007D183 /* AlarmClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockTableViewCell.swift; sourceTree = "<group>"; };
+		8D8AA238299241380007D183 /* AlarmClockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmClockTableViewCell.xib; sourceTree = "<group>"; };
+		8DEF942E299291E100703058 /* AlarmClockSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockSettingViewController.swift; sourceTree = "<group>"; };
+		8DEF942F299291E100703058 /* AlarmClockSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmClockSettingViewController.xib; sourceTree = "<group>"; };
+		8DFE7EB02993959B003A6A47 /* AlarmClockSettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockSettingTableViewCell.swift; sourceTree = "<group>"; };
+		8DFE7EB12993959B003A6A47 /* AlarmClockSettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmClockSettingTableViewCell.xib; sourceTree = "<group>"; };
+		8DFE7EB42993C4FC003A6A47 /* SettingRemindTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRemindTableViewCell.swift; sourceTree = "<group>"; };
+		8DFE7EB52993C4FC003A6A47 /* SettingRemindTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingRemindTableViewCell.xib; sourceTree = "<group>"; };
+		8DFE7EB82993CA66003A6A47 /* SettingDeleteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDeleteTableViewCell.swift; sourceTree = "<group>"; };
+		8DFE7EB92993CA66003A6A47 /* SettingDeleteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingDeleteTableViewCell.xib; sourceTree = "<group>"; };
+		8DFE7EC02994BE1C003A6A47 /* SettingRepeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRepeatViewController.swift; sourceTree = "<group>"; };
+		8DFE7EC12994BE1C003A6A47 /* SettingRepeatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingRepeatViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D8AA2142992217F0007D183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D8AA20E2992217F0007D183 = {
+			isa = PBXGroup;
+			children = (
+				8D8AA2192992217F0007D183 /* AlarmClock */,
+				8D8AA2182992217F0007D183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D8AA2182992217F0007D183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D8AA2172992217F0007D183 /* AlarmClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D8AA2192992217F0007D183 /* AlarmClock */ = {
+			isa = PBXGroup;
+			children = (
+				8D8AA22E299223D10007D183 /* Controller */,
+				8D8AA21A2992217F0007D183 /* AppDelegate.swift */,
+				8D8AA21C2992217F0007D183 /* SceneDelegate.swift */,
+				8D8AA223299221820007D183 /* Assets.xcassets */,
+				8D8AA225299221820007D183 /* LaunchScreen.storyboard */,
+				8D8AA228299221820007D183 /* Info.plist */,
+			);
+			path = AlarmClock;
+			sourceTree = "<group>";
+		};
+		8D8AA22E299223D10007D183 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D8AA236299241110007D183 /* Components */,
+				8D8AA22F299224EA0007D183 /* AlarmClockViewController.swift */,
+				8D8AA230299224EA0007D183 /* AlarmClockViewController.xib */,
+				8DEF942E299291E100703058 /* AlarmClockSettingViewController.swift */,
+				8DEF942F299291E100703058 /* AlarmClockSettingViewController.xib */,
+				8DFE7EC02994BE1C003A6A47 /* SettingRepeatViewController.swift */,
+				8DFE7EC12994BE1C003A6A47 /* SettingRepeatViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D8AA236299241110007D183 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8D8AA237299241380007D183 /* AlarmClockTableViewCell.swift */,
+				8D8AA238299241380007D183 /* AlarmClockTableViewCell.xib */,
+				8DFE7EB02993959B003A6A47 /* AlarmClockSettingTableViewCell.swift */,
+				8DFE7EB12993959B003A6A47 /* AlarmClockSettingTableViewCell.xib */,
+				8DFE7EB42993C4FC003A6A47 /* SettingRemindTableViewCell.swift */,
+				8DFE7EB52993C4FC003A6A47 /* SettingRemindTableViewCell.xib */,
+				8DFE7EB82993CA66003A6A47 /* SettingDeleteTableViewCell.swift */,
+				8DFE7EB92993CA66003A6A47 /* SettingDeleteTableViewCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D8AA2162992217F0007D183 /* AlarmClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8AA22B299221820007D183 /* Build configuration list for PBXNativeTarget "AlarmClock" */;
+			buildPhases = (
+				8D8AA2132992217F0007D183 /* Sources */,
+				8D8AA2142992217F0007D183 /* Frameworks */,
+				8D8AA2152992217F0007D183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlarmClock;
+			productName = AlarmClock;
+			productReference = 8D8AA2172992217F0007D183 /* AlarmClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D8AA20F2992217F0007D183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8D8AA2162992217F0007D183 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8D8AA2122992217F0007D183 /* Build configuration list for PBXProject "AlarmClock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D8AA20E2992217F0007D183;
+			productRefGroup = 8D8AA2182992217F0007D183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D8AA2162992217F0007D183 /* AlarmClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D8AA2152992217F0007D183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFE7EB72993C4FC003A6A47 /* SettingRemindTableViewCell.xib in Resources */,
+				8D8AA23A299241380007D183 /* AlarmClockTableViewCell.xib in Resources */,
+				8D8AA232299224EA0007D183 /* AlarmClockViewController.xib in Resources */,
+				8DFE7EC32994BE1C003A6A47 /* SettingRepeatViewController.xib in Resources */,
+				8DFE7EBB2993CA66003A6A47 /* SettingDeleteTableViewCell.xib in Resources */,
+				8DEF9431299291E100703058 /* AlarmClockSettingViewController.xib in Resources */,
+				8D8AA227299221820007D183 /* LaunchScreen.storyboard in Resources */,
+				8D8AA224299221820007D183 /* Assets.xcassets in Resources */,
+				8DFE7EB32993959B003A6A47 /* AlarmClockSettingTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D8AA2132992217F0007D183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEF9430299291E100703058 /* AlarmClockSettingViewController.swift in Sources */,
+				8DFE7EB22993959B003A6A47 /* AlarmClockSettingTableViewCell.swift in Sources */,
+				8D8AA239299241380007D183 /* AlarmClockTableViewCell.swift in Sources */,
+				8D8AA21B2992217F0007D183 /* AppDelegate.swift in Sources */,
+				8D8AA21D2992217F0007D183 /* SceneDelegate.swift in Sources */,
+				8DFE7EB62993C4FC003A6A47 /* SettingRemindTableViewCell.swift in Sources */,
+				8DFE7EC22994BE1C003A6A47 /* SettingRepeatViewController.swift in Sources */,
+				8DFE7EBA2993CA66003A6A47 /* SettingDeleteTableViewCell.swift in Sources */,
+				8D8AA231299224EA0007D183 /* AlarmClockViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D8AA225299221820007D183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D8AA226299221820007D183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D8AA229299221820007D183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D8AA22A299221820007D183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D8AA22C299221820007D183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlarmClock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chocolee.AlarmClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D8AA22D299221820007D183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlarmClock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chocolee.AlarmClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D8AA2122992217F0007D183 /* Build configuration list for PBXProject "AlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8AA229299221820007D183 /* Debug */,
+				8D8AA22A299221820007D183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8AA22B299221820007D183 /* Build configuration list for PBXNativeTarget "AlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8AA22C299221820007D183 /* Debug */,
+				8D8AA22D299221820007D183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D8AA20F2992217F0007D183 /* Project object */;
+}
