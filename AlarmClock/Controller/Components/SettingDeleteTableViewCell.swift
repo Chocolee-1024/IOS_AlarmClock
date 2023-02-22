@@ -9,19 +9,15 @@ import UIKit
 
 class SettingDeleteTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
-    
     static let identifier = "SettingDeleteTableViewCell"
-    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
+    // 初始化
     func setupInit(){
         titleLabel.text = "刪除鬧鐘"
         titleLabel.textColor = .systemRed

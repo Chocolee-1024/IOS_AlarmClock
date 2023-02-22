@@ -12,19 +12,36 @@
 		8D8AA224299221820007D183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8AA223299221820007D183 /* Assets.xcassets */; };
 		8D8AA227299221820007D183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8AA225299221820007D183 /* LaunchScreen.storyboard */; };
 		8D8AA231299224EA0007D183 /* AlarmClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8AA22F299224EA0007D183 /* AlarmClockViewController.swift */; };
-		8D8AA232299224EA0007D183 /* AlarmClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8AA230299224EA0007D183 /* AlarmClockViewController.xib */; };
 		8D8AA239299241380007D183 /* AlarmClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8AA237299241380007D183 /* AlarmClockTableViewCell.swift */; };
 		8D8AA23A299241380007D183 /* AlarmClockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8AA238299241380007D183 /* AlarmClockTableViewCell.xib */; };
+		8D963D67299531AA0055FD2B /* SettingTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D963D65299531AA0055FD2B /* SettingTagViewController.swift */; };
+		8D963D68299531AA0055FD2B /* SettingTagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D963D66299531AA0055FD2B /* SettingTagViewController.xib */; };
+		8D963D6B29960BC60055FD2B /* SettingRingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D963D6929960BC60055FD2B /* SettingRingViewController.swift */; };
+		8D963D6C29960BC60055FD2B /* SettingRingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D963D6A29960BC60055FD2B /* SettingRingViewController.xib */; };
+		8D963D6F2996184D0055FD2B /* SettingRingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D963D6D2996184D0055FD2B /* SettingRingTableViewCell.swift */; };
+		8D963D702996184D0055FD2B /* SettingRingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D963D6E2996184D0055FD2B /* SettingRingTableViewCell.xib */; };
+		8D963D7C29964CDD0055FD2B /* AlarmClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D963D7B29964CDD0055FD2B /* AlarmClockViewController.xib */; };
+		8DA5F3E529964FF300C2065F /* SettingRepeatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DA5F3E329964FF300C2065F /* SettingRepeatViewController.xib */; };
+		8DA5F3E629964FF300C2065F /* SettingRepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5F3E429964FF300C2065F /* SettingRepeatViewController.swift */; };
+		8DA5F3E92997C8DD00C2065F /* SettingRingConcussionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5F3E72997C8DD00C2065F /* SettingRingConcussionTableViewCell.swift */; };
+		8DA5F3EA2997C8DD00C2065F /* SettingRingConcussionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DA5F3E82997C8DD00C2065F /* SettingRingConcussionTableViewCell.xib */; };
+		8DA5F3ED299A286F00C2065F /* ClockPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5F3EC299A286F00C2065F /* ClockPreferences.swift */; };
+		8DA5F3EF299A303000C2065F /* NSNotifaction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5F3EE299A303000C2065F /* NSNotifaction+Extension.swift */; };
+		8DA5F3F2299F484500C2065F /* LocalDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5F3F1299F484500C2065F /* LocalDatabase.swift */; };
+		8DA5F3F5299F4BE500C2065F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 8DA5F3F4299F4BE500C2065F /* Realm */; };
+		8DA5F3F7299F4BE500C2065F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8DA5F3F6299F4BE500C2065F /* RealmSwift */; };
+		8DA5F3FA299F546400C2065F /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5F3F9299F546400C2065F /* Clock.swift */; };
+		8DA5F40029A501A700C2065F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5F3FF29A501A700C2065F /* String+Extension.swift */; };
 		8DEF9430299291E100703058 /* AlarmClockSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF942E299291E100703058 /* AlarmClockSettingViewController.swift */; };
 		8DEF9431299291E100703058 /* AlarmClockSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DEF942F299291E100703058 /* AlarmClockSettingViewController.xib */; };
 		8DFE7EB22993959B003A6A47 /* AlarmClockSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB02993959B003A6A47 /* AlarmClockSettingTableViewCell.swift */; };
 		8DFE7EB32993959B003A6A47 /* AlarmClockSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB12993959B003A6A47 /* AlarmClockSettingTableViewCell.xib */; };
-		8DFE7EB62993C4FC003A6A47 /* SettingRemindTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB42993C4FC003A6A47 /* SettingRemindTableViewCell.swift */; };
-		8DFE7EB72993C4FC003A6A47 /* SettingRemindTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB52993C4FC003A6A47 /* SettingRemindTableViewCell.xib */; };
+		8DFE7EB62993C4FC003A6A47 /* SettingRimindTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB42993C4FC003A6A47 /* SettingRimindTableViewCell.swift */; };
+		8DFE7EB72993C4FC003A6A47 /* SettingRimindTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB52993C4FC003A6A47 /* SettingRimindTableViewCell.xib */; };
 		8DFE7EBA2993CA66003A6A47 /* SettingDeleteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB82993CA66003A6A47 /* SettingDeleteTableViewCell.swift */; };
 		8DFE7EBB2993CA66003A6A47 /* SettingDeleteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE7EB92993CA66003A6A47 /* SettingDeleteTableViewCell.xib */; };
-		8DFE7EC22994BE1C003A6A47 /* SettingRepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE7EC02994BE1C003A6A47 /* SettingRepeatViewController.swift */; };
-		8DFE7EC32994BE1C003A6A47 /* SettingRepeatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE7EC12994BE1C003A6A47 /* SettingRepeatViewController.xib */; };
+		8DFE7EC62994D04B003A6A47 /* SettingRepeatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE7EC42994D04B003A6A47 /* SettingRepeatTableViewCell.swift */; };
+		8DFE7EC72994D04B003A6A47 /* SettingRepeatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE7EC52994D04B003A6A47 /* SettingRepeatTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,19 +52,34 @@
 		8D8AA226299221820007D183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D8AA228299221820007D183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D8AA22F299224EA0007D183 /* AlarmClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockViewController.swift; sourceTree = "<group>"; };
-		8D8AA230299224EA0007D183 /* AlarmClockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmClockViewController.xib; sourceTree = "<group>"; };
 		8D8AA237299241380007D183 /* AlarmClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockTableViewCell.swift; sourceTree = "<group>"; };
 		8D8AA238299241380007D183 /* AlarmClockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmClockTableViewCell.xib; sourceTree = "<group>"; };
+		8D963D65299531AA0055FD2B /* SettingTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTagViewController.swift; sourceTree = "<group>"; };
+		8D963D66299531AA0055FD2B /* SettingTagViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTagViewController.xib; sourceTree = "<group>"; };
+		8D963D6929960BC60055FD2B /* SettingRingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRingViewController.swift; sourceTree = "<group>"; };
+		8D963D6A29960BC60055FD2B /* SettingRingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingRingViewController.xib; sourceTree = "<group>"; };
+		8D963D6D2996184D0055FD2B /* SettingRingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRingTableViewCell.swift; sourceTree = "<group>"; };
+		8D963D6E2996184D0055FD2B /* SettingRingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingRingTableViewCell.xib; sourceTree = "<group>"; };
+		8D963D7B29964CDD0055FD2B /* AlarmClockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlarmClockViewController.xib; sourceTree = "<group>"; };
+		8DA5F3E329964FF300C2065F /* SettingRepeatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingRepeatViewController.xib; sourceTree = "<group>"; };
+		8DA5F3E429964FF300C2065F /* SettingRepeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingRepeatViewController.swift; sourceTree = "<group>"; };
+		8DA5F3E72997C8DD00C2065F /* SettingRingConcussionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRingConcussionTableViewCell.swift; sourceTree = "<group>"; };
+		8DA5F3E82997C8DD00C2065F /* SettingRingConcussionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingRingConcussionTableViewCell.xib; sourceTree = "<group>"; };
+		8DA5F3EC299A286F00C2065F /* ClockPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockPreferences.swift; sourceTree = "<group>"; };
+		8DA5F3EE299A303000C2065F /* NSNotifaction+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotifaction+Extension.swift"; sourceTree = "<group>"; };
+		8DA5F3F1299F484500C2065F /* LocalDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDatabase.swift; sourceTree = "<group>"; };
+		8DA5F3F9299F546400C2065F /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		8DA5F3FF29A501A700C2065F /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		8DEF942E299291E100703058 /* AlarmClockSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockSettingViewController.swift; sourceTree = "<group>"; };
 		8DEF942F299291E100703058 /* AlarmClockSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmClockSettingViewController.xib; sourceTree = "<group>"; };
 		8DFE7EB02993959B003A6A47 /* AlarmClockSettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockSettingTableViewCell.swift; sourceTree = "<group>"; };
 		8DFE7EB12993959B003A6A47 /* AlarmClockSettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmClockSettingTableViewCell.xib; sourceTree = "<group>"; };
-		8DFE7EB42993C4FC003A6A47 /* SettingRemindTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRemindTableViewCell.swift; sourceTree = "<group>"; };
-		8DFE7EB52993C4FC003A6A47 /* SettingRemindTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingRemindTableViewCell.xib; sourceTree = "<group>"; };
+		8DFE7EB42993C4FC003A6A47 /* SettingRimindTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRimindTableViewCell.swift; sourceTree = "<group>"; };
+		8DFE7EB52993C4FC003A6A47 /* SettingRimindTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingRimindTableViewCell.xib; sourceTree = "<group>"; };
 		8DFE7EB82993CA66003A6A47 /* SettingDeleteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDeleteTableViewCell.swift; sourceTree = "<group>"; };
 		8DFE7EB92993CA66003A6A47 /* SettingDeleteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingDeleteTableViewCell.xib; sourceTree = "<group>"; };
-		8DFE7EC02994BE1C003A6A47 /* SettingRepeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRepeatViewController.swift; sourceTree = "<group>"; };
-		8DFE7EC12994BE1C003A6A47 /* SettingRepeatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingRepeatViewController.xib; sourceTree = "<group>"; };
+		8DFE7EC42994D04B003A6A47 /* SettingRepeatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRepeatTableViewCell.swift; sourceTree = "<group>"; };
+		8DFE7EC52994D04B003A6A47 /* SettingRepeatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingRepeatTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA5F3F7299F4BE500C2065F /* RealmSwift in Frameworks */,
+				8DA5F3F5299F4BE500C2065F /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +114,7 @@
 		8D8AA2192992217F0007D183 /* AlarmClock */ = {
 			isa = PBXGroup;
 			children = (
+				8DA5F3EB299A27CE00C2065F /* Model */,
 				8D8AA22E299223D10007D183 /* Controller */,
 				8D8AA21A2992217F0007D183 /* AppDelegate.swift */,
 				8D8AA21C2992217F0007D183 /* SceneDelegate.swift */,
@@ -93,13 +128,9 @@
 		8D8AA22E299223D10007D183 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8D963D7A29964C020055FD2B /* SettingClock */,
+				8D963D7829964BCD0055FD2B /* MainClock */,
 				8D8AA236299241110007D183 /* Components */,
-				8D8AA22F299224EA0007D183 /* AlarmClockViewController.swift */,
-				8D8AA230299224EA0007D183 /* AlarmClockViewController.xib */,
-				8DEF942E299291E100703058 /* AlarmClockSettingViewController.swift */,
-				8DEF942F299291E100703058 /* AlarmClockSettingViewController.xib */,
-				8DFE7EC02994BE1C003A6A47 /* SettingRepeatViewController.swift */,
-				8DFE7EC12994BE1C003A6A47 /* SettingRepeatViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -111,12 +142,86 @@
 				8D8AA238299241380007D183 /* AlarmClockTableViewCell.xib */,
 				8DFE7EB02993959B003A6A47 /* AlarmClockSettingTableViewCell.swift */,
 				8DFE7EB12993959B003A6A47 /* AlarmClockSettingTableViewCell.xib */,
-				8DFE7EB42993C4FC003A6A47 /* SettingRemindTableViewCell.swift */,
-				8DFE7EB52993C4FC003A6A47 /* SettingRemindTableViewCell.xib */,
+				8DFE7EB42993C4FC003A6A47 /* SettingRimindTableViewCell.swift */,
+				8DFE7EB52993C4FC003A6A47 /* SettingRimindTableViewCell.xib */,
 				8DFE7EB82993CA66003A6A47 /* SettingDeleteTableViewCell.swift */,
 				8DFE7EB92993CA66003A6A47 /* SettingDeleteTableViewCell.xib */,
+				8DFE7EC42994D04B003A6A47 /* SettingRepeatTableViewCell.swift */,
+				8DFE7EC52994D04B003A6A47 /* SettingRepeatTableViewCell.xib */,
+				8D963D6D2996184D0055FD2B /* SettingRingTableViewCell.swift */,
+				8D963D6E2996184D0055FD2B /* SettingRingTableViewCell.xib */,
+				8DA5F3E72997C8DD00C2065F /* SettingRingConcussionTableViewCell.swift */,
+				8DA5F3E82997C8DD00C2065F /* SettingRingConcussionTableViewCell.xib */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		8D963D7829964BCD0055FD2B /* MainClock */ = {
+			isa = PBXGroup;
+			children = (
+				8D963D7B29964CDD0055FD2B /* AlarmClockViewController.xib */,
+				8D8AA22F299224EA0007D183 /* AlarmClockViewController.swift */,
+			);
+			path = MainClock;
+			sourceTree = "<group>";
+		};
+		8D963D7A29964C020055FD2B /* SettingClock */ = {
+			isa = PBXGroup;
+			children = (
+				8D963D7F29964D340055FD2B /* Repeat */,
+				8D963D7E29964D230055FD2B /* Tag */,
+				8D963D7D29964D090055FD2B /* Ring */,
+				8DEF942E299291E100703058 /* AlarmClockSettingViewController.swift */,
+				8DEF942F299291E100703058 /* AlarmClockSettingViewController.xib */,
+			);
+			path = SettingClock;
+			sourceTree = "<group>";
+		};
+		8D963D7D29964D090055FD2B /* Ring */ = {
+			isa = PBXGroup;
+			children = (
+				8D963D6929960BC60055FD2B /* SettingRingViewController.swift */,
+				8D963D6A29960BC60055FD2B /* SettingRingViewController.xib */,
+			);
+			path = Ring;
+			sourceTree = "<group>";
+		};
+		8D963D7E29964D230055FD2B /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				8D963D65299531AA0055FD2B /* SettingTagViewController.swift */,
+				8D963D66299531AA0055FD2B /* SettingTagViewController.xib */,
+			);
+			path = Tag;
+			sourceTree = "<group>";
+		};
+		8D963D7F29964D340055FD2B /* Repeat */ = {
+			isa = PBXGroup;
+			children = (
+				8DA5F3E429964FF300C2065F /* SettingRepeatViewController.swift */,
+				8DA5F3E329964FF300C2065F /* SettingRepeatViewController.xib */,
+			);
+			path = Repeat;
+			sourceTree = "<group>";
+		};
+		8DA5F3EB299A27CE00C2065F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DA5F3F0299A303900C2065F /* Extension */,
+				8DA5F3EC299A286F00C2065F /* ClockPreferences.swift */,
+				8DA5F3F1299F484500C2065F /* LocalDatabase.swift */,
+				8DA5F3F9299F546400C2065F /* Clock.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DA5F3F0299A303900C2065F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8DA5F3EE299A303000C2065F /* NSNotifaction+Extension.swift */,
+				8DA5F3FF29A501A700C2065F /* String+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +240,10 @@
 			dependencies = (
 			);
 			name = AlarmClock;
+			packageProductDependencies = (
+				8DA5F3F4299F4BE500C2065F /* Realm */,
+				8DA5F3F6299F4BE500C2065F /* RealmSwift */,
+			);
 			productName = AlarmClock;
 			productReference = 8D8AA2172992217F0007D183 /* AlarmClock.app */;
 			productType = "com.apple.product-type.application";
@@ -163,6 +272,9 @@
 				Base,
 			);
 			mainGroup = 8D8AA20E2992217F0007D183;
+			packageReferences = (
+				8DA5F3F3299F4BE500C2065F /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 8D8AA2182992217F0007D183 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -177,14 +289,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DFE7EB72993C4FC003A6A47 /* SettingRemindTableViewCell.xib in Resources */,
+				8D963D702996184D0055FD2B /* SettingRingTableViewCell.xib in Resources */,
+				8DFE7EB72993C4FC003A6A47 /* SettingRimindTableViewCell.xib in Resources */,
 				8D8AA23A299241380007D183 /* AlarmClockTableViewCell.xib in Resources */,
-				8D8AA232299224EA0007D183 /* AlarmClockViewController.xib in Resources */,
-				8DFE7EC32994BE1C003A6A47 /* SettingRepeatViewController.xib in Resources */,
+				8D963D7C29964CDD0055FD2B /* AlarmClockViewController.xib in Resources */,
+				8DA5F3E529964FF300C2065F /* SettingRepeatViewController.xib in Resources */,
+				8DFE7EC72994D04B003A6A47 /* SettingRepeatTableViewCell.xib in Resources */,
+				8D963D68299531AA0055FD2B /* SettingTagViewController.xib in Resources */,
 				8DFE7EBB2993CA66003A6A47 /* SettingDeleteTableViewCell.xib in Resources */,
+				8D963D6C29960BC60055FD2B /* SettingRingViewController.xib in Resources */,
 				8DEF9431299291E100703058 /* AlarmClockSettingViewController.xib in Resources */,
 				8D8AA227299221820007D183 /* LaunchScreen.storyboard in Resources */,
 				8D8AA224299221820007D183 /* Assets.xcassets in Resources */,
+				8DA5F3EA2997C8DD00C2065F /* SettingRingConcussionTableViewCell.xib in Resources */,
 				8DFE7EB32993959B003A6A47 /* AlarmClockSettingTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,14 +314,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DEF9430299291E100703058 /* AlarmClockSettingViewController.swift in Sources */,
+				8DA5F3E629964FF300C2065F /* SettingRepeatViewController.swift in Sources */,
+				8DA5F3E92997C8DD00C2065F /* SettingRingConcussionTableViewCell.swift in Sources */,
+				8DA5F40029A501A700C2065F /* String+Extension.swift in Sources */,
 				8DFE7EB22993959B003A6A47 /* AlarmClockSettingTableViewCell.swift in Sources */,
 				8D8AA239299241380007D183 /* AlarmClockTableViewCell.swift in Sources */,
+				8D963D6B29960BC60055FD2B /* SettingRingViewController.swift in Sources */,
+				8DA5F3ED299A286F00C2065F /* ClockPreferences.swift in Sources */,
+				8D963D6F2996184D0055FD2B /* SettingRingTableViewCell.swift in Sources */,
 				8D8AA21B2992217F0007D183 /* AppDelegate.swift in Sources */,
 				8D8AA21D2992217F0007D183 /* SceneDelegate.swift in Sources */,
-				8DFE7EB62993C4FC003A6A47 /* SettingRemindTableViewCell.swift in Sources */,
-				8DFE7EC22994BE1C003A6A47 /* SettingRepeatViewController.swift in Sources */,
+				8DA5F3F2299F484500C2065F /* LocalDatabase.swift in Sources */,
+				8DFE7EB62993C4FC003A6A47 /* SettingRimindTableViewCell.swift in Sources */,
+				8DA5F3FA299F546400C2065F /* Clock.swift in Sources */,
+				8DFE7EC62994D04B003A6A47 /* SettingRepeatTableViewCell.swift in Sources */,
 				8DFE7EBA2993CA66003A6A47 /* SettingDeleteTableViewCell.swift in Sources */,
+				8D963D67299531AA0055FD2B /* SettingTagViewController.swift in Sources */,
 				8D8AA231299224EA0007D183 /* AlarmClockViewController.swift in Sources */,
+				8DA5F3EF299A303000C2065F /* NSNotifaction+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +537,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8DA5F3F3299F4BE500C2065F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8DA5F3F4299F4BE500C2065F /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DA5F3F3299F4BE500C2065F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		8DA5F3F6299F4BE500C2065F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DA5F3F3299F4BE500C2065F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8D8AA20F2992217F0007D183 /* Project object */;
 }

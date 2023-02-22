@@ -20,7 +20,7 @@
                         <rect key="frame" x="261" y="34.666666666666664" width="51" height="30.999999999999993"/>
                     </switch>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHn-vv-FrI">
-                        <rect key="frame" x="20" y="39.666666666666664" width="42" height="21"/>
+                        <rect key="frame" x="20" y="34.666666666666664" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -32,7 +32,13 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urh-rb-RCB">
-                        <rect key="frame" x="67" y="36.666666666666664" width="42" height="21"/>
+                        <rect key="frame" x="67" y="31.666666666666671" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNt-c1-LTv">
+                        <rect key="frame" x="268" y="39.666666666666664" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -42,10 +48,12 @@
                     <constraint firstAttribute="bottom" secondItem="g6F-eg-WC6" secondAttribute="bottom" constant="10" id="3E9-Qg-9YN"/>
                     <constraint firstItem="g6F-eg-WC6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="4YX-Yt-qst"/>
                     <constraint firstItem="mHn-vv-FrI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="7BI-5k-qk5"/>
-                    <constraint firstItem="urh-rb-RCB" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-3" id="Lgy-aG-iXd"/>
+                    <constraint firstItem="urh-rb-RCB" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-8" id="Lgy-aG-iXd"/>
                     <constraint firstAttribute="trailing" secondItem="W5c-Sg-Foq" secondAttribute="trailing" constant="10" id="Ow0-rY-Fc5"/>
+                    <constraint firstAttribute="trailing" secondItem="jNt-c1-LTv" secondAttribute="trailing" constant="10" id="QWM-rX-8bz"/>
                     <constraint firstItem="urh-rb-RCB" firstAttribute="leading" secondItem="mHn-vv-FrI" secondAttribute="trailing" constant="5" id="Rvn-xM-hgA"/>
-                    <constraint firstItem="mHn-vv-FrI" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="jeA-bm-yjM"/>
+                    <constraint firstItem="jNt-c1-LTv" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="beC-Ft-fvi"/>
+                    <constraint firstItem="mHn-vv-FrI" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-5" id="jeA-bm-yjM"/>
                     <constraint firstItem="W5c-Sg-Foq" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="y1J-h4-l2c"/>
                 </constraints>
             </tableViewCellContentView>
@@ -53,6 +61,7 @@
             <connections>
                 <outlet property="am_pmLabel" destination="mHn-vv-FrI" id="sjl-jw-OML"/>
                 <outlet property="contextLabel" destination="g6F-eg-WC6" id="WXR-Hd-Zni"/>
+                <outlet property="itemLebel" destination="jNt-c1-LTv" id="JyD-yG-PSA"/>
                 <outlet property="openSwitch" destination="W5c-Sg-Foq" id="cxd-h4-Ty1"/>
                 <outlet property="timeLabel" destination="urh-rb-RCB" id="1Hw-Q1-VmO"/>
             </connections>

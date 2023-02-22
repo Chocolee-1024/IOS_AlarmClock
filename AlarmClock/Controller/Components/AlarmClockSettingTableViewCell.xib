@@ -29,9 +29,9 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fg-al-cQC">
-                        <rect key="frame" x="102" y="12" width="150" height="20"/>
+                        <rect key="frame" x="2" y="12" width="250" height="20"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="150" id="9pO-ci-kcf"/>
+                            <constraint firstAttribute="width" constant="250" id="9pO-ci-kcf"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -41,16 +41,16 @@
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="7ji-NZ-TZE" secondAttribute="trailing" constant="16" id="66P-B7-zH9"/>
                     <constraint firstItem="7ji-NZ-TZE" firstAttribute="leading" secondItem="9fg-al-cQC" secondAttribute="trailing" constant="10" id="E7n-qD-o4f"/>
-                    <constraint firstItem="WVE-OC-S5b" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="NKx-Ch-bco"/>
                     <constraint firstItem="7ji-NZ-TZE" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="NgP-Ee-rEc"/>
-                    <constraint firstItem="WVE-OC-S5b" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="bKk-QR-CRN"/>
+                    <constraint firstItem="WVE-OC-S5b" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ZgR-mk-VI8"/>
+                    <constraint firstItem="WVE-OC-S5b" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="kjj-Gq-O59"/>
                     <constraint firstItem="9fg-al-cQC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="xAN-l8-gCz"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="itemLabel" destination="7ji-NZ-TZE" id="36l-id-lNM"/>
-                <outlet property="subTitle" destination="9fg-al-cQC" id="e5j-U4-4bg"/>
+                <outlet property="subTitleLabel" destination="9fg-al-cQC" id="e5j-U4-4bg"/>
                 <outlet property="titleLabel" destination="WVE-OC-S5b" id="zr7-9V-XMj"/>
             </connections>
             <point key="canvasLocation" x="138.93129770992365" y="19.718309859154932"/>

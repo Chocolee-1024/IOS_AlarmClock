@@ -24,7 +24,7 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="qA3-gC-jqT" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="HYV-YS-1je"/>
+                    <constraint firstItem="qA3-gC-jqT" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="LGa-wk-kGD"/>
                     <constraint firstItem="qA3-gC-jqT" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="sfp-nd-Iev"/>
                 </constraints>
             </tableViewCellContentView>

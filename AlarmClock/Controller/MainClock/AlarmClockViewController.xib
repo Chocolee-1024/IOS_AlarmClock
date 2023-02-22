@@ -11,8 +11,6 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlarmClockViewController" customModule="AlarmClock" customModuleProvider="target">
             <connections>
                 <outlet property="alarmClockTableView" destination="hKv-uP-5V1" id="68J-pw-xV0"/>
-                <outlet property="alarmClockView" destination="i5M-Pr-FkT" id="YjW-H1-orb"/>
-                <outlet property="titleLabel" destination="wza-HJ-08j" id="6Vh-Qc-yHx"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,25 +19,17 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wza-HJ-08j">
-                    <rect key="frame" x="15" y="64" width="71" height="36"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hKv-uP-5V1">
-                    <rect key="frame" x="5" y="100" width="383" height="754"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hKv-uP-5V1">
+                    <rect key="frame" x="5" y="99" width="383" height="724"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="wza-HJ-08j" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="PW5-qX-roF"/>
-                <constraint firstItem="wza-HJ-08j" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="5" id="lhN-bb-sZD"/>
+                <constraint firstItem="hKv-uP-5V1" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="KVb-Xr-AD0"/>
                 <constraint firstItem="hKv-uP-5V1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="nET-Vk-NpF"/>
-                <constraint firstItem="hKv-uP-5V1" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="0.993412" id="rAv-qg-555"/>
-                <constraint firstItem="hKv-uP-5V1" firstAttribute="top" secondItem="wza-HJ-08j" secondAttribute="bottom" id="yjx-TJ-Nns"/>
+                <constraint firstItem="hKv-uP-5V1" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" constant="5" id="oPN-hS-o9Q"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hKv-uP-5V1" secondAttribute="trailing" constant="5" id="ziZ-e4-H1a"/>
             </constraints>
             <point key="canvasLocation" x="56" y="20"/>
